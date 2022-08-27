@@ -1,0 +1,16 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.hostellerBackground{
+    color:white;
+}
+
+.form{
+    display:flex;
+    justify-content: center;
+}
+.stform{
+    display: flex;
+    justify-content: center;
+}

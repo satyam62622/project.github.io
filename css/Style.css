@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    position:sticky;
+    top:0;
+    cursor:pointer;
+}
+
+.navBarBackground{
+    background-color:black;
+}
+.nav-list{
+width:50%;
+display:flex;
+align-items: center;
+}
+
+
+.nav-list li{
+list-style:none;
+padding:20px;
+}
+
+.nav-list li a{
+text-decoration: none;
+color:white;
+}
+
+.nav-list li a:hover{
+    text-decoration: none;
+    color:grey;
+}
+.rightNav{
+    padding-right: 10px;    
+    width:50%;
+    text-align: right;
+}
+
+.logo{
+    width:20%;
+    display:flex;
+    justify-content: center;
+}
+
+.logo img{
+    width:33%;
+    border-radius: 50%;
+}
+
+#search{
+padding:5px;
+font-size: 17px;
+border-radius: 9px;
+}
+
+.background{
+    background:rgba(0,0,0,0.7) url('../images/resized.jpg');
+    background-blend-mode:darken;
+}
+
+.firstSection{
+    height:100vh;
+}
+.box-main{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    color:white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 50%;
+    margin:auto;   
+    padding-top: 60px; 
+}
+
+.firstHalf{
+    width:80%;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.secondHalf{
+width:70%;
+}
+
+.secondHalf img{
+    width:70%;
+    border:2px solid white;
+    border-radius: 50%;
+    display:block;
+    margin:auto;
+
+}
+
+.text-big{
+font-size:35px;
+}
+.text-small{
+font-size:25px;
+}
+
+.btn{
+margin:4px;
+padding:10px;
+background-color: transparent;
+color: white;
+border: 1px solid white;
+border-radius: 3%;
+}
+
+.btn:hover{
+    background-color: rgb(45, 45, 45);
+}
+.btn-sm{
+    font-size:15px;
+
+}
+
+.youtubeVideo{
+    margin:90px;
+    margin-top:0px;
+}
+
+.secRight{
+    height:500px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    max-width:80%;
+    margin:auto;
+    margin-top: 5%;
+}
+.imgHostel{
+    width:500px;
+    border-radius:5px;
+}
+.sectionSubTag{
+    font-size:20px;
+}
+.para{
+    padding:20px;
+    padding-right:50px;
+}
+.contactUs{
+    background-color: #f8f6f6;
+}
+.contactHead{
+    font-size: 30px;
+    margin:30px;
+    padding-top:20px;
+}
+.contacts{
+    margin-left:30px;
+   
+}
+.contacts li{
+    list-style: none;
+}
+
+.social{
+  padding-top:50px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.slogo
+{
+    display:flex;
+    width:30px;
+    padding:4px;
+    border-radius: 10px;
+}
+.geuLogo{
+    padding:50px;
+    padding-top: 10px;
+    padding-bottom:30px;
+    display:flex;
+    justify-content: center;
+
+}
+.finalLogo{
+    width:100px;
+    border-radius: 50%;
+}
+
+.footer1{
+    text-align: center;
+    padding:10px;
+    padding-top:7px;
+    font-size: 13px;
+    background-color: black;
+    color: white;
+}
+
+.burger{
+display: none;
+padding:20px;
+position:absolute;
+cursor:pointer;
+right:2%;
+top:15px;
+}
+
+.line{
+    width:30px;
+    background-color: rgb(255, 255, 255);
+    height:3px;
+    margin:3px 3px;
+}
+
+
+
+@media only screen and (max-width:1340px){
+    .nav-list{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+    }
+    .right-nav{
+        text-align:center;
+    }
+    #search{
+        width:100%;
+    }
+    .burger{
+        display:block;
+    }
+    .h-nav-resp{
+        height:72px;
+    }
+
+    .v-class-resp{
+        opacity:0;
+    }
+}

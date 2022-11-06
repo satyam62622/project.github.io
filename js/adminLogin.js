@@ -13,7 +13,8 @@ function validate(){
     else if(username=="7060998201" && password=="kumarsatyam@LGLG")
     {
         alert("login succeessful.");
-        return true;
+        window.open("adminHomepage.html");
+        window.close("adminLogin.html");
     }
 
    

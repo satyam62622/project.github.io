@@ -5,6 +5,8 @@ function validate(){
     if(username=="8860493812" && password=="chopraaman@LGLG")
     {
         alert("login successful.");
+        window.open("adminHomepage.html");
+        window.close("adminLogin.html");
         return true;
     }
 
